@@ -47,6 +47,13 @@ header .title {
     opacity: 1;
   }
 }
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.projects, .blog, .contact, .intro {
+  animation: fadeIn 1.5s ease-in forwards;
+}
 
 .intro {
   font-size: 1rem;
