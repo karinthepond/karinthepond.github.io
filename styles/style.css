@@ -1,0 +1,78 @@
+html {
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+  background-color: #000000;
+  color: #E0E0E0;
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  max-width: 1068px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: -0.022em;
+  gap: 2rem;
+}
+
+header {
+	border-bottom: 1px solid #333;
+}
+
+header .title {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.intro {
+  font-size: 1rem;
+  max-width: 800px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+a {
+  color: hotpink;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #333;
+  justify-content: flex-start;
+  color: #333;
+  font-size: 15px;
+}
+
+footer svg {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+footer a {
+  color:#333;
+}
+
+footer a:hover {
+  color:hotpink;
+}
+
+footer a:hover svg {
+  transform: scale(1.2);
+}
