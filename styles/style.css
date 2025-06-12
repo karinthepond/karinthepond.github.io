@@ -1,8 +1,8 @@
 html {
   font-size: 17px;
   font-family: 'Inter', sans-serif;
-  background-color: #000000;
-  color: #E0E0E0;
+  background-color: #000;
+  color: #fff;
   font-weight: 300;
 }
 
@@ -21,7 +21,6 @@ body {
 header {
 	border-bottom: 1px solid #333;
 }
-
 header .title {
   font-size: 3rem;
   font-weight: 700;
@@ -51,7 +50,7 @@ header .title {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-.projects, .blog, .contact, .intro {
+.projects, .blogs, .contact, .intro {
   animation: fadeIn 1.5s ease-in forwards;
 }
 
